@@ -21,14 +21,14 @@
             scope="col"
             colspan="4"
           >
-            table head
+            scope and colspan
           </th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">first</th>
-          <td>some</td>
+          <td rowspan="2">rowspan</td>
           <td>some</td>
           <td>some</td>
         </tr>
@@ -36,9 +36,13 @@
           <th scope="row">second</th>
           <td>some</td>
           <td>some</td>
-          <td>some</td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="4">table foot</th>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>

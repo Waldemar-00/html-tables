@@ -1,9 +1,10 @@
+table {
+  border-spacing: 1rem 2rem;
+}
 td {
   padding: 1rem;
   border: 1px solid lightseagreen;
 }
-tr {
-  margin-bottom: 1rem;
-}
 th {
+  border: 1px solid lightseagreen;
 }
